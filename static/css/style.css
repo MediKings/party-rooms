@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 a {
     color: inherit;
 }
@@ -87,6 +91,17 @@ footer {
 
 footer .col-md-4 {
     margin-bottom: 20px;
+}
+
+#to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #dea27a;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 
 @media all and (max-width: 992px) {
