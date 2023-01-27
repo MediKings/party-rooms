@@ -1,5 +1,51 @@
-.wrapper {
-    padding: 0px 5%;
+a {
+    color: inherit;
+}
+
+header {
+    position: relative;
+}
+
+header .brand {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    padding: 3px 5%;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.top .nav a {
+    padding: 10px 10px;
+}
+
+.banner{
+    position: relative;
+    padding: 65px 3%;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    height: 83vh;
+    z-index: 1;
+}
+
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.banner .text {
+    color: #fff;
+    z-index: 3;
 }
 
 .home-tab {
@@ -10,10 +56,39 @@
     padding: 5rem 0px;
 }
 
+.home-tab h2 {
+    margin-bottom: 30px;
+}
+
 .home-tab h2 span {
     font-size: 4rem;
 }
 
 .home-tab img {
     box-shadow: 50px -50px #f7efe9;
+}
+
+@media all and (max-width: 767px) {
+    .hide {
+        display: none;
+    }
+
+    .show {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 50%;
+        display: flex;
+        flex-direction: column !important;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .top .nav a {
+        padding: 15px 10px;
+    }
+
+    .home-tab .box-item {
+        padding: 5rem 0px 2rem;
+    }
 }
