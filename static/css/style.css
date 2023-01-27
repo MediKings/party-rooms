@@ -1,0 +1,19 @@
+.wrapper {
+    padding: 0px 5%;
+}
+
+.home-tab {
+    padding: 3rem 0px;
+}
+
+.home-tab .box-item {
+    padding: 5rem 0px;
+}
+
+.home-tab h2 span {
+    font-size: 4rem;
+}
+
+.home-tab img {
+    box-shadow: 50px -50px #f7efe9;
+}
