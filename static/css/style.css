@@ -72,6 +72,18 @@ header .brand {
     padding: 5rem 0px;
 }
 
+.home-tab .box-item .img-box {
+    width: 100%;
+    height: 320px;
+}
+
+.home-tab .box-item .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
 .home-tab h2 {
     margin-bottom: 30px;
 }
@@ -108,6 +120,11 @@ footer .col-md-4 {
 
     .home-tab .box-item {
         padding: 5rem 0px 2rem;
+    }
+
+    .home-tab .box-item .img-box {
+        width: 100%;
+        height: 250px;
     }
 
     .banner .text {
