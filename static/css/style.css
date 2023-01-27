@@ -28,7 +28,7 @@ header .brand {
     padding: 65px 3%;
     background-image: url('../images/banner.jpg');
     background-size: cover;
-    height: 83vh;
+    height: 600px;
     z-index: 1;
 }
 
@@ -68,6 +68,22 @@ header .brand {
     box-shadow: 50px -50px #f7efe9;
 }
 
+footer {
+    background-color: #f7efe9;
+    padding: 30px 0px;
+}
+
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 992px) {
+
+    .home-tab .box-item {
+        padding: 5rem 0px 2rem;
+    }
+
+}
 @media all and (max-width: 767px) {
     .hide {
         display: none;
@@ -86,9 +102,5 @@ header .brand {
     
     .top .nav a {
         padding: 15px 10px;
-    }
-
-    .home-tab .box-item {
-        padding: 5rem 0px 2rem;
     }
 }
