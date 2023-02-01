@@ -1,5 +1,6 @@
 html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a {
@@ -36,10 +37,6 @@ header .brand {
 
 .banner{
     position: relative;
-    padding: 65px 3%;
-    background-image: url('../images/banner.jpg');
-    background-size: cover;
-    height: 600px;
     z-index: 1;
 }
 
@@ -52,6 +49,14 @@ header .brand {
     bottom: 0px;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: -1;
+}
+
+.banner .banner-images img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top;
 }
 
 .banner .text {
