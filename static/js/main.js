@@ -5,7 +5,8 @@ $(document).ready(()=>{
     })
 
     $('.banner-images').slick({
-        dots: true,
+        dots: false,
+        arrows: false,
         autoplay: true,
         infinite: true,
         speed: 150,

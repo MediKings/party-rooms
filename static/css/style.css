@@ -57,6 +57,7 @@ header .brand {
     object-fit: cover;
     -o-object-fit: cover;
     object-position: top;
+    -o-object-position: top;
 }
 
 .banner .text {
@@ -184,15 +185,14 @@ footer .col-md-4 {
         padding: 15px 10px;
     }
 
-    .banner{
+    .banner .banner-images img {
         height: 500px;
     }
 
-    .banner .text {
-        margin-left: 3%;
+    .home-tab {
+        padding: 0rem 0px 2rem;
     }
-    
-    .banner .text h2 {
-        font-size: 3rem;
+    .services .table .detail {
+        min-width: 300px;
     }
 }
