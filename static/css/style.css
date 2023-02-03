@@ -134,15 +134,21 @@ footer .col-md-4 {
     margin-bottom: 20px;
 }
 
-#to-top {
+#back-to-top {
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    bottom: -50px;
     background-color: #dea27a;
     border-radius: 50%;
     color: #fff;
     padding: 10px 15px;
     cursor: pointer;
+    transition: all 300ms;
+}
+
+#back-to-top.show-btn {
+    bottom: 30px;
+    transition: all 300ms;
 }
 
 @media all and (max-width: 992px) {
